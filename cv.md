@@ -1,4 +1,6 @@
-# Viktoria Suleiman
+# Viktoryia Suleiman
+<img src="./photo.jpg" alt="drawing" width="300" />
+
 ### Contact:
 * Phone:+48789365673
 * E-mail: vika.suleiman@gmail.com
