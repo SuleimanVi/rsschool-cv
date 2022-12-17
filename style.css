@@ -4,129 +4,81 @@ body {
     line-height: 1.5;
 }
 
-.main_wrapper {
+.background {
+    background-color: #87ceeb63;
+}
+
+.content_wrapper {
     position: relative;
     flex-basis: 0;
     border: 2px solid #b0b6bf97;
     border-radius: 6px;
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
 }
 
-.name {
+.header {
     text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #b0b6bf97;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 24px;
 }
 
 .head {
     font-weight: bold;
     color: #3d3a3a;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.section {
+    padding: 10px 15px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
 }
 
 .profession {
-    font-size: 12PX;
+    font-size: 12px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 .img {
     width: 200px;
     height: 200px;
-    text-align: center;
-    border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.cv {
-    background-color: #87cefa;
-    height: 400px;
+    border: 2px solid #b0b6bf97;
+    border-radius: 50%;
 }
 
 .link_inf {
-    color: aliceblue;
+    color: #87CEEB;
     text-decoration: none;
-
+    font-weight: bold;
 }
-
-.description {
-    color: aliceblue;
-    padding: 0 20px;
-    height: 500px;
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
-}
-
 
 .main {
     display: flex;
 }
 
-.heading {
-    width: 250px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 24px;
-
-
-
-}
-
-.left_side,
-.right_side {
+.content_column {
     flex: 1 1 0;
-}
-
-.left_side {
-    background-color: #3d3a3a;
-    min-height: 10em;
-}
-
-.right_side {
+    min-width: 305px;
+    padding: 20px;
+    padding-top: 0;
     color: rgba(0, 0, 0, .65);
-}
-
-.code_example {
-    background-color: bisque;
 }
 
 .links {
     display: flex;
     justify-content: space-around;
-
-}
-
-.git,
-.rsschool {
-    position: absolute;
-
-}
-
-.heading2 {
-    width: 250px;
-    border-bottom: 1px solid #3d3a3a;
-    border-bottom: 1px solid;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 24px;
-}
-
-.descr_2 {
-    padding: 0 20px;
+    align-items: center;
 }
 
 .footer {
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: rgb(255, 255, 255);
-    border-top: 2px solid black;
+    border-top: 2px solid #b0b6bf97;
 }
