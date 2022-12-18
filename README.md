@@ -1,1 +1,1 @@
-# rsschool-cv
+ https://SuleimanVi.github.io/rsschool-cv/
